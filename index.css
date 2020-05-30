@@ -1,0 +1,66 @@
+#body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    font-size:4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menuCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.menuItem{
+    padding: 10px;
+    height:250px;
+    width: 400px;
+    border: 5px solid #876e30 ;
+    margin-left: 5px;
+    overflow: hidden;
+    background-color: #ffd795bf;
+    color:#000000;
+    font-size:1.25em;
+    margin-top: 10px;
+    
+
+}
+.name{
+
+    font-weight: bolder;
+    font-size:2em;
+    background-color: indianred;
+    position: relative;
+    left: 309px;
+    width:95px;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 2em;
+    font-family: serif;
+}
+#chick{
+    left: 230px;
+    width: 170px;
+}
+
+
+/*adding medai tags*/
+
+@media screen and (max-width:991px){
+    #sushi{
+        width: 800px;
+    }
+    #sushii{
+        left:650px;
+    }
+
+}
+
+@media screen and (max-width:767px){
+    #sushi{
+        width: 400px;
+    }  
+}
